@@ -5,11 +5,7 @@ var table = document.getElementById("Table");
 
 
 
-for(let rowIndex = 2; rowIndex < 19; rowIndex++){
-  for(let cellIndex = 2; cellIndex < 5; cellIndex++){
-     console.log(table.rows[rowIndex].cells[cellIndex]);
-  }
-}
+
 
 // check the empty input
 function checkEmptyInput()

@@ -1,0 +1,50 @@
+/* Orgin */
+.tab {
+    float: left;
+    margin-right: 40px;
+    /*margin-top: -30pxp;*/}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color:bisque;}
+
+/* Title+ round corners */
+label.title{
+    margin-left: 600px;
+    margin-top: 10px;}
+
+#ServerRoom{ border-radius: 20px;}
+#Temperature{ border-radius: 20px;}
+#Humidity{border-radius: 20px;}
+
+.Input_Container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.Table_Container {
+    text-align: center;
+    display: flex;
+    margin-left: 600px;
+    width: 100px;
+    margin-top: -350px;
+}
+
+.but {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+.Export{
+    display: flex;
+    margin-left: 700px;
+}
